@@ -1,0 +1,29 @@
+{
+  "name": "cash-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:pm2": "pm2 start index.js --name 'api'",
+    "pm2:status": "pm2 status",
+    "pm2:stop": "pm2 stop api" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyTimoshenko/cash-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyTimoshenko/cash-api/issues"
+  },
+  "homepage": "https://github.com/SergeyTimoshenko/cash-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "pm2": "^4.2.3"
+  }
+}
